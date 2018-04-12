@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/libs/materialize.min.css" />
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+    <script src="js/jquery.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="center"> Jogo Acerto das palavras</h3>
+
+        <p class="frase center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit purus.</p>
+        <ul class="informacoes ">
+            <li>
+                <i class="small material-icons icones">description</i>
+                <span id="tamanhoDaFrase"></span> - Palavras
+                <li>
+                    <i class="small material-icons icones">query_builder</i>
+                    <span id="tempoDigitacao">10</span> Tempo
+                </li>
+        </ul>
+
+        <textarea class="digitador campo-digitacao" row="8" cols="40"></textarea>
+
+        <div class="botoes">
+            <a id="botaoReiniciar" class="btn-floating btn-large waves-effect waves-light red">
+                <i class="material-icons">restore</i>
+            </a>
+        </div>
+
+        <div class="center">
+            <h6 id="mensagem-erro"></h6>
+        </div>
+
+        <ul class="informacoes center">
+            <li>
+                <span class="qtdPalavras"> </span> - Palavras
+            </li>
+            <li>
+                <span class="qtdCaracteres"></span> - Caracteres
+            </li>
+        </ul>
+
+        <section class="placar">
+            <h3 >Placar</h3>
+            <table class="centered bordered">
+                <thead>
+                    <tr>
+                        <th>Usuário</th>
+                        <th>No. de palavras</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Douglas</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
